@@ -1,0 +1,85 @@
+.yellow{
+    background-color: gold;
+}
+
+.green{
+    background-color: darkseagreen;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.gradeA{
+    background-color: dodgerblue;
+}
+
+.gradeB{
+    background-color: darkturquoise;
+}
+
+.gradeC{
+    background-color: limegreen;
+}
+
+.gradeD{
+    background-color: gold;
+}
+
+.gradeF{
+    background-color: red;
+}
+
+#myButton{
+    background-color: burlywood;
+    border-color: black;
+}
+
+#secondary{
+    border: 2px solid black;
+    background-color: green;
+}
+
+body{
+    font-size: 20px;
+    position: relative;
+    margin: auto;
+    width: 60%;
+    border: 2px solid black;
+    padding: 10px;
+    top: 50px;
+}
+
+#finalContainer{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+.calcGradeBox{
+    border: 2px solid black;
+    padding: 5px;
+    width: 280px;
+}
+
+#categoryName{
+    position: relative;
+    left: 3px;
+}
+
+#myButton{
+    position: relative;
+    left: 12px;
+}
+
+#inputName{
+    position: relative;
+    left: 5px;
+}
+
+.addRowBox{
+    border: 2px solid black;
+    padding: 5px;
+    width: 370px;
+    background-color: firebrick;
+}

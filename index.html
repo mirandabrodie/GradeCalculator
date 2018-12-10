@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Grade Calculator</title>
+<link href = "style.css" rel = stylesheet>
+<script src = "script.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body onload = "setUpPage()">
+
+<div id = "container">
+    <table id = "primary">
+    </table>
+    <br>
+    <div class = "addRowBox">
+        <span id = "categoryName">Category: </span>
+        <input type = "text" id = "inputName">
+        <button id = "myButton" onclick = "addRow()">Add Row</button>
+    </div>
+    <br>
+    <br>
+    <div class = "calcGradeBox" id = "calcGradeBox">
+        <button id = "submitButton" onclick = "calculateCurrentGrade()">Calculate Current Grade</button>
+        <span id = "currentGrade"></span>
+        <span id = "percent"></span>
+    </div>
+
+</div>
+
+<br>
+<br>
+<div id = "finalContainer">
+    <table id = "secondary">
+        <tr>
+            <td>Calculate Final Grade Needed</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Grade Wanted on Final</td>
+            <td>Final Weight</td>
+        </tr>
+        <tr>
+            <td>
+                <input type = "text" class = "gradeWanted" id = "gradeWanted" value = "90">
+            </td>
+            <td>
+                <input type = "text" id = "finalWeight" value = "15">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button id = "finalButton" onclick = "calculateGradeNeeded()">Calculate Grade Needed on Final</button>
+            </td>
+            <td id = "gradeNeeded"></td>
+        </tr>
+    </table>
+    <br>
+</div>
+
+</body>
+</html>
