@@ -101,6 +101,7 @@ function calculateCurrentGrade(){
     var weight = [];
     var total = 0;
 
+
     for(var i = 0; i< rowCount; i++){
         points.push(document.getElementById("points" + i).value);
         weight.push(document.getElementById("weight" + i).value);
